@@ -21,7 +21,6 @@ body {
   color: #5b5b5b;
   font-size: 18px;
   font-weight: bold;
-  padding: 8px 16px;
   border-radius: 50px;
   letter-spacing: 0.2px;
 }
@@ -47,11 +46,12 @@ a:hover {
   font-size: 40px;
 }
 
-p {
-  font-size: 18px;
-  font-weight: 550;
-  line-height: 1.5;
+.p {
   color: #5b5b5b;
+  font-size: 18px;
+  font-weight: 450;
+  border-radius: 50px;
+  letter-spacing: 0.2px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -315,6 +315,10 @@ b, strong {
   border-bottom: 1px solid #1f1f1f;
 }
 .dark-mode .small-text {
+  background: #0d0c15;
+  color: #ffffff;
+}
+.dark-mode .p {
   background: #0d0c15;
   color: #ffffff;
 }
